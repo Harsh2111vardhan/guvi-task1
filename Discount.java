@@ -19,7 +19,6 @@ public class Discount {
             }
             // Calculate the discount amount
             double discountAmount = purchaseAmount * discountRate;
-            // Calculate the final payable amount
             double finalAmount = purchaseAmount - discountAmount;
             System.out.println("Discount: Rs" + discountAmount);
             System.out.println("Final payable amount: Rs" + finalAmount);
